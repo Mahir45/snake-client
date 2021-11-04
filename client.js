@@ -9,11 +9,11 @@ const connect = function () {
   conn.setEncoding("utf8");
 conn.on("connect" ,() => {
   console.log("connection deya")
-  conn.write("Name: POO")
-  conn.write("Move: up")
-  conn.write("Move: left")
+  conn.write("Name: HSM")
   // conn.write("Move: right")
 })
   return conn;
 };
-module.exports = connect
+module.exports = connect 
+
+
