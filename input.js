@@ -25,9 +25,15 @@ const setupInput = function (conn) {
     connection.write("Move: right")
   }else if (key === "s"){
   console.log("Move DOWN")
-  connection.write("Move: down")
-
-   };
+  connection.write("Move: down") 
+   } else if (key === "b") {
+      console.log("Secret Key Pressed")
+      connection.write("Abaaaaaay Abaaaay");
+    }
+  
+  
+  
+   
   
    
   
